@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<body>
+    <div id="mensagem"></div>
+    <script>
+        const nome = prompt("Qual é o seu nome?");
+        if (nome) {
+            document.getElementById("mensagem").innerText = `Olá, ${nome}! Seja bem-vindo(a) ao nosso site.`;
+        } else {
+            document.getElementById("mensagem").innerText = "Olá! Seja bem-vindo(a) ao nosso site.";
+        }
+    </script>
+</body>
+</html>
